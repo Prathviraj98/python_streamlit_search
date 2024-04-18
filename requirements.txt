@@ -1,4 +1,2 @@
-webbrowser
 streamlit
-json
 streamlit_lottie 
