@@ -33,18 +33,18 @@ website=st.radio(
 
 if query:
   match website:
-    case "Google": webbrowser.open(
+    case "Google": webbrowser.open_new_tab(
         "https://www.google.com/search?q="+query
         )
-    case "Brave": webbrowser.open(
+    case "Brave": webbrowser.open_new_tab(
         "https://search.brave.com/search?q="+query
         )
-    case "DuckDuckGo": webbrowser.open(
+    case "DuckDuckGo": webbrowser.open_new_tab(
         "https://duckduckgo.com/?q="+query
         )
-    case "Youtube": webbrowser.open(
+    case "Youtube": webbrowser.open_new_tab(
         "https://www.youtube.com/results?search_query="+query
         )
-    case "Wikipedia": webbrowser.open(
+    case "Wikipedia": webbrowser.open_new_tab(
         "https://en.wikipedia.org/wiki/"+query
         )
