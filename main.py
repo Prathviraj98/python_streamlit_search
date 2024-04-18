@@ -48,3 +48,4 @@ if query:
     case "Wikipedia": webbrowser.open_new_tab(
         "https://en.wikipedia.org/wiki/"+query
         )
+st.link_button("Go to gallery", "https://www.google.com")
